@@ -7,8 +7,8 @@ env = Environment()
 DEBNAME = "jaredhoberock"
 DEBVERSION = "0.01"
 DEBMAINT = "Jared Hoberock [jaredhoberock@gmail.com]"
-DEBARCH = "noarch"
-DEBDEPENDS = "git, ssh, vim-gnome, scons, libboost-dev, libtbb-dev" # what are we dependent on?
+DEBARCH = "all"
+DEBDEPENDS = "git, ssh, g++, vim-gnome, scons, libboost-dev, libtbb-dev" # what are we dependent on?
 DEBDESC = "Jared's development environment"
 
 DEBFILES = [
